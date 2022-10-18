@@ -1,6 +1,6 @@
 #calculadora{
 	width: 450px;
-	height: 700px;
+	height: 600px;
 }
 p{
 	display: flex;
@@ -20,6 +20,7 @@ p{
 	height: 100px;
 }
 #visor{
+	font-size: 24pt;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

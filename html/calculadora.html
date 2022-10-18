@@ -9,34 +9,34 @@
 <body>
 	<header></header>
 	<main>
-		<form id="calculadora">
+		<form id="calculadora" name="calculadora" >
 			<p><input type="text" name="visor" id="visor"></p>
 			<p>
-				<button class="btn" value="9" onclick="visor(value);">9</button>
-				<button class="btn" value="8" onclick="visor(value);">8</button>
-				<button class="btn" value="7" onclick="visor(value);">7</button>
-				<button class="op" value="/" onclick="visor(value);">/</button>
+				<input type="button" class="btn" value="9" onclick="mvisor(value);">
+				<input type="button" class="btn" value="8" onclick="mvisor(value);">
+				<input type="button" class="btn" value="7" onclick="mvisor(value);">
+				<input type="button" class="op" value="/" onclick="mvisor(value);">
 			</p>
 			<p>
-				<button class="btn" value="6" onclick="visor(value);">6</button>
-				<button class="btn" value="5" onclick="visor(value);">5</button>
-				<button class="btn" value="4" onclick="visor(value);">4</button>
-				<button class="op" value="-" onclick="visor(value);">-</button>
+				<input type="button" class="btn" value="6" onclick="mvisor(value);">
+				<input type="button" class="btn" value="5" onclick="mvisor(value);">
+				<input type="button" class="btn" value="4" onclick="mvisor(value);">
+				<input type="button" class="op" value="-" onclick="mvisor(value);">
 			</p>
 			<p>
-				<button class="btn" value="3" onclick="visor(value);">3</button>
-				<button class="btn" value="2" onclick="visor(value);">2</button>
-				<button class="btn" value="1" onclick="visor(value);">1</button>
-				<button class="op" value="*" onclick="visor(value);">*</button>
+				<input type="button" class="btn" value="3" onclick="mvisor(value);">
+				<input type="button" class="btn" value="2" onclick="mvisor(value);">
+				<input type="button" class="btn" value="1" onclick="mvisor(value);">
+				<input type="button" class="op" value="*" onclick="mvisor(value);">
 			</p>
 			<p>
-				<button class="op" value="." onclick="visor(value);">.</button>
-				<button class="btn" value="0" onclick="visor(value);">0</button>
-				<button class="btn" value="C" onclick="limpa();">C</button>
-				<button class="op" value="+" onclick="visor(value);">+</button>
+				<input type="button" class="op" value="." onclick="mvisor(value);">
+				<input type="button" class="btn" value="0" onclick="mvisor(value);">
+				<input type="button" class="btn" value="C" onclick="limpa();">
+				<input type="button" class="op" value="+" onclick="mvisor(value);">
 			</p>
 			<p>
-				<button class="igual" value="=" onclick="calcula();">=</button>
+				<input type="button" class="igual" value="=" onclick="calcula();">
 			</p>
 		</form>
 	</main>
